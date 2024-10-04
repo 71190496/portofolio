@@ -1,10 +1,10 @@
 .po_items_ho {
-    column-width: 15em;
-    -moz-column-width: 15em;
-    -webkit-column-width: 15em;
-    column-gap: 4rem;
-    -moz-column-gap: 4rem;
-    -webkit-column-gap: 4rem;
+    column-width: 20em;
+    -moz-column-width: 20em;
+    -webkit-column-width: 20em;
+    column-gap: 5rem;
+    -moz-column-gap: 5rem;
+    -webkit-column-gap: 5rem;
 }
 
 .po_item {
@@ -14,16 +14,23 @@
     margin: 0.5rem auto;
     position: relative;
     background: var(--secondary-color);
-    padding: 6px;
-    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    border: 2px solid var(--secondary-color);
     transition: 0.3s ease;
     font-size: 0;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .po_item img {
     max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Menambah efek sudut yang lebih halus pada gambar */
+    transition: 0.3s ease-in-out;
 }
+
+/* .po_item:hover img {
+    transform: scale(1.5); 
+} */
 
 .po_item .content {
     position: absolute;

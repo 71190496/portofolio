@@ -1,156 +1,105 @@
-const logotext = "JOHN";
+import profilePhoto from '../src/assets/images/profile.png'; // Hapus 'src/' dari path
+import porto1 from '../src/assets/images/porto1.png'; // Hapus 'src/' dari path
+import porto2 from '../src/assets/images/porto2.png'; // Hapus 'src/' dari path
+
+const logotext = "JOHN JULIUS";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "John Julius",
+    description: "I’m John Julius - Web Developer",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m John Julius",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "Web Developer",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am a student from Duta Wacana Christian University with majoring in Informatics Engineering. I have strongly interested in web development especially for front - end developer and API development.I have the ambition to develop my skills and grow professionally to contribute positively to the work environment, therefore I always do my best in every task I take.",
+    your_img_url: profilePhoto, // Menggunakan gambar yang diimpor,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About my self",
+    aboutme: "I am a student from Duta Wacana Christian University with majoring in Informatics Engineering. I have strongly interested in web development especially for front - end developer and API development.I have the ambition to develop my skills and grow professionally to contribute positively to the work environment, therefore I always do my best in every task I take.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+const worktimeline = [
+{
+    jobtitle: "Freelance Back-end Developer",
+    where: "Yogyakarta",
+    date: "Nov 2023 - Dec 2023",
+},
+{
+    jobtitle: "Software Developer at Yayasan SATUNAMA Yogyakarta",
+    where: "Yogyakarta",
+    date: "Aug 2021 - Jan 2022",
+},
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+    name: "PHP",
+    value: 90,
+},
+{
+    name: "Laravel",
+    value: 85,
+},
+{
+    name: "Javascript",
+    value: 80,
+},
+{
+    name: "React",
+    value: 60,
+},
+{
+    name: "Jquery",
+    value: 85,
+},
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+    title: "Hard Skills",
+    description: "Programming (HTML, CSS, PHP, JavaScript), Framework (Laravel, BoostrapCSS, ReactJs, TailwindCSS), Database (PostgreSQL, MySQL), Software (Postman, Figma).",
+},
+{
+    title: "Soft Skills",
+    description: "Creative thinking, Critical thinking, Collaboration and teamwork, Communication, Adaptability.",
+},
+{
+    title: "Certification",
+    description: " IT Specialist HTML and CSS - Pearson (2024).",
+},
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    img: porto1,
+    description: "Developed a training system website using PHP 8.0 and Laravel Framework 10, implementing the MVC paradigm and built the training system's database using PostgreSQL as part of a 2-person team.",
+    link: "#",
+},
+{
+    img: porto2,
+    description: "Developed back-end services using PHP 8.1 and the Laravel Framework 10 by implementing the MVC paradigm and developed 4 back-end features by implementing the Scrum methodology.",
+    link: "#",
+},
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
+    YOUR_EMAIL: "john.julius@ti.ukdw.ac.id",
     YOUR_FONE: "(555)123-4567",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "xuov zans kmnn ppvp",
+    YOUR_TEMPLATE_ID: "template_zyfao4d",
+    YOUR_PUBLIC_KEY: "6rYwONUA3R4g6daLl",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/71190496?tab=repositories",
+    // facebook: "https://facebook.com",
+    linkedin: "https://www.linkedin.com/in/john-julius-pattikaihatu-604168237/",
+    // twitter: "https://twitter.com",
 };
 export {
     meta,
